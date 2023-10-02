@@ -1,0 +1,160 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Cadastrando para a vaga Test Automation",
+        "description": "",
+        "id": "cadastrando-para-vaga-de-emprego;cadastrando-para-a-vaga-test-automation",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 4375821200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que estou no site da Encora",
+            "match": {
+              "location": "CarreiraSteps.que_estou_no_site_da_Encora()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1477761100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico em careers",
+            "match": {
+              "location": "CarreiraSteps.clico_em_careers()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1175212400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "preencho o campo Job title",
+            "match": {
+              "location": "CarreiraSteps.preencho_o_campo_Job_title()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1405886100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clico no botão Search",
+            "match": {
+              "location": "CarreiraSteps.clico_no_botão_Search()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 5126961000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "clico no botão READ MORE",
+            "match": {
+              "location": "CarreiraSteps.clico_no_botão_READ_MORE()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1676466800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "preencho os campos obrigatórios",
+            "match": {
+              "location": "CarreiraSteps.preencho_os_campos_obrigatórios()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 39936600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "adiciono o arquivo",
+            "match": {
+              "location": "CarreiraSteps.adiciono_o_arquivo()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 92380300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "marco os checklist legal",
+            "match": {
+              "location": "CarreiraSteps.marco_os_checklist_legal()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 88442500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "marco o checklist termo",
+            "match": {
+              "location": "CarreiraSteps.marco_o_checklist_termo()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1139800600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "clico em no botão Submit",
+            "match": {
+              "location": "CarreiraSteps.clico_em_no_botão_Submit()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 215200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "a aplicação deve exibir a mensagem Thanks for your application!",
+            "match": {
+              "location": "CarreiraSteps.a_aplicação_deve_exibir_a_mensagem_Thanks_for_your_application()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@carreira"
+          }
+        ]
+      }
+    ],
+    "name": "Cadastrando para vaga de emprego",
+    "description": "    Eu como candidato para vaga de Test Automation\n    Quero acessar o site da Encora para me candidatar\n    Para fazer parte da equipe Encora",
+    "id": "cadastrando-para-vaga-de-emprego",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/features/carreira.feature",
+    "tags": []
+  }
+]
